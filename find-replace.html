@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Find and Replace</title>
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <script src='js/lib/jquery-1.11.3.js'></script>
+    <script src='js/script.js'></script>
+
+
+  </head>
+  <body>
+
+    <div class='container'>
+
+      <div class='form-div'>
+        <h2 class="header">Word Exchange</h2>
+
+        <form id='word-form'>
+
+          <div class="form-group">
+            <label for='sentence'>Sentence</label>
+            <input type='text' id='sentence' placeholder="ex: I love dogs">
+          </div>
+
+          <div class="form-group">
+            <label for='find'>Word to change</label>
+            <input type='text' id='find' placeholder="ex: dogs">
+          </div>
+
+          <div class="form-group">
+            <label for='replace'>Replacement word</label>
+            <input type='text' id='replace' placeholder="ex: cats">
+          </div>
+
+            <button type='submit' class="btn">Submit</button>
+        </form>
+      </div>
+
+      <div id='results-div'>
+        <h4 id="results"></h4>
+      </div>
+
+    </div>
+
+  </body>
+</html>
